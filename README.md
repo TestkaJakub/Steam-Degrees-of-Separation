@@ -1,7 +1,7 @@
 # Steam Degrees of Separation
 This project is inspired by [Harvard's CS50's Introduction to Artificial Intelligence with Python course](https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python) and ["How Many Steam Friends Separate You From Gabe Newell?"](https://www.youtube.com/watch?v=ZokhvNPmNzs) youtube video by [Coeus](https://www.youtube.com/@CoeusYT).
 
-# Use of this Steam Degrees of Separation script
+# Intended usage
 Find how many [degrees of separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) there are between two steam profiles.
 
 # How to use
