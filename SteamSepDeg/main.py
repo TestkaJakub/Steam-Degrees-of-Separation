@@ -1,8 +1,3 @@
-import os
-from dotenv import  load_dotenv
+from steamFriends import get_friends
 
-load_dotenv()
-
-api_key = os.getenv('API_KEY')
-
-print(api_key)
+print(get_friends('76561198158238821'))
