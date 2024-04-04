@@ -13,4 +13,4 @@ git clone https://github.com/TestkaJakub/Steam-Degrees-of-Separation.git
 3. Run main.py
 4. Enter the [64-bit steam profile ID](https://steamcommunity.com/discussions/forum/1/364039785160857002) of the first steam profile
 5. Enter the [64-bit steam profile ID](https://steamcommunity.com/discussions/forum/1/364039785160857002) of the second steam profile
-6. Wait (it make take a **long** time before the result is returned)
+6. Wait (it may take a **long** time before the result is returned)
