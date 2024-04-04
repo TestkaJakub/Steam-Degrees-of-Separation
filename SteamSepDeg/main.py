@@ -1,4 +1,4 @@
-from steamFriends import get_friends
+from steamFriends import get_friends, get_name
 from frontier import Node, QueueFrontier
 
 
@@ -19,7 +19,7 @@ def main():
         print(f"Degrees of separation: {degrees}")
         path = [(None, source)] + path
         for i in range(degrees):
-            person1, person2 = path[i][1], path[i + 1][1]
+            person1, person2 = get_name(path[i][1]), get_name(path[i + 1][1])
             print(f"{i + 1}: {person1} is friends with {person2}")
 
 
