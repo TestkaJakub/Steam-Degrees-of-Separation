@@ -10,6 +10,9 @@ API_KEY = os.getenv('API_KEY')
 def get_friends(steam_id):
     url = f'http://api.steampowered.com/ISteamUser/GetFriendList/v0001/?key={API_KEY}&steamid={steam_id}&relationship=friend'
     response = requests.get(url)
+    if not response:
+        return None
+
     friends = response.json()['friendslist']['friends']
     steam_ids = [friend['steamid'] for friend in friends]
     return steam_ids
